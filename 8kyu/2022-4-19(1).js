@@ -1,3 +1,5 @@
+// Bin to Decimal
+
 // Complete the function which converts a binary number (given as a string) to a decimal number.
 
 function binToDec(bin){
@@ -11,7 +13,7 @@ function binToDec(bin){
 
 
 
- // const binToDec = bin => [...bin].reverse().reduce((acc, elt, idx) => acc + elt * 2 ** idx, 0)
+ // const binToDec = bin => [...bin].reverse().reduce((acc, elt, idx) => acc + elt * 2 ** idx, 0) //using spread operator
 
 
 
