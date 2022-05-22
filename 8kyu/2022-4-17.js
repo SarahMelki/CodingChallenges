@@ -1,3 +1,5 @@
+// String cleaning
+
 // Your boss decided to save money by purchasing some cut-rate optical character recognition software 
 //for scanning in the text of old novels to your database. 
 //At first it seems to capture words okay, but you quickly notice that it throws in a lot of numbers at random places 
@@ -20,4 +22,11 @@
 
 
 
-const stringClean = s => s.replace( /\d/g, "" ) ;
+const stringClean = s => s.replace( /\d/g, "" ) 
+
+//let cleanStr = str => str.replace(/^[0-9\s]*|[+*\r\n]/g, '')
+
+// This regex detects either ^[0-9\s]* or [+*\r\n] (and these sequences will be replaced with the empty string).
+// ^[0-9\s]* replaces any number of consecutive digit or whitespace characters at the beginning of the string.
+// ^[+*\r\n] removes any "+", "*", or newline characters (including \r, which could be significant in windows environments) which occur anywhere in the string.
+
