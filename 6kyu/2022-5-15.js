@@ -52,39 +52,3 @@ function isOddHeavy(arr){
     }
   }
 
-//   public int isOddHeavy(int[] a)
-//         {
-//             int rtnVal = 1;
-//             if (a.Length == 0)
-//             {
-//                 rtnVal = 0;
-//                 goto end;
-//             }
-//             else if (a.Length == 1 && a[0] % 2 == 0)
-//             {
-//                 rtnVal = 0;
-//                 goto end;
-
-//             }
-//             for (int i = 0; i < a.Length; i++)
-//             {
-
-//                 if (a[i] % 2 != 0)//odd
-//                 {
-//                     //check this elements to every even elements
-//                     for (int j = 0; j < a.Length; j++)
-//                     {
-//                         if (a[j] % 2 == 0)
-//                         {
-//                             if (a[i] < a[j])
-//                             {
-//                                 rtnVal = 0;
-//                                 goto end;
-//                             }
-//                         }
-//                     }
-//                 }
-//             }
-//         end:
-//             return rtnVal;
-//         }
