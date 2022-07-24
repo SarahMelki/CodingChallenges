@@ -2,7 +2,7 @@
 ![alt tag](https://www.codewars.com/users/SarahMelki/badges/large)
 ## How It's Made:
 
-I have a cup of black coffee alongside a CodeWars challenge every morning.
+I take a CodeWars challenge every morning, alongside a cup of black coffee ☕️.
 
 **Tech used:** <img src="https://img.shields.io/static/v1?label=|&message=JAVASCRIPT&color=2e4f7e&style=plastic&logo=javascript"/>
 
